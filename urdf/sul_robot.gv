@@ -1,0 +1,17 @@
+digraph G {
+node [shape=box];
+"l0" [label="l0"];
+"l1" [label="l1"];
+"l2" [label="l2"];
+"l3" [label="l3"];
+"l4" [label="l4"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"l0" -> "j1" [label="xyz: 0 0 0.6 \nrpy: 0 -0 0"]
+"j1" -> "l1"
+"l1" -> "j2" [label="xyz: 0 0 0.6 \nrpy: 0 -0 0"]
+"j2" -> "l2"
+"l2" -> "j3" [label="xyz: 0 1 0.3 \nrpy: 0 -0 0"]
+"j3" -> "l3"
+"l3" -> "j4" [label="xyz: 0 0 -0.5 \nrpy: 0 -0 0"]
+"j4" -> "l4"
+}
